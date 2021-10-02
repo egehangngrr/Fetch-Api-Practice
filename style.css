@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.coin-wrapper { 
+    display: flex;
+    border: solid 2px red;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.coin-info { 
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+}
+
+.coin-image { 
+    max-width: 2rem;
+}
+
+.current-price {
+    font-weight: bold;
+}

@@ -13,9 +13,9 @@ getCoins()
  .then(data => { 
     data.forEach(function (items) {
         console.log(items);
-     });
+     });    
  })
  .catch(err => console.log(err));
 
 
- // for every-each items 
+ // inner html funtions for every each item. 
