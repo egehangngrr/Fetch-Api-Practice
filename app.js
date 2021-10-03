@@ -17,7 +17,7 @@ getCoins()
  .then(data => { 
     data.forEach(function (items) {
         const {image, name, symbol, current_price} = items
-        wrapper.insertAdjacentHTML('beforeend', `<div class="coin-wrapper"> <div class="coin-info"> <img class="coin-image" src=${image} alt=""> <p class="coin-name">${name}</p><p class="coin-symbol">${symbol}</p></div><p class="current-price">Price: ${current_price}</p></div>`)
+        wrapper.insertAdjacentHTML('beforeend', `<div class="coin-wrapper"> <div class="coin-info"> <img class="coin-image" src=${image} alt=""> <p class="coin-name">${name}</p><p class="coin-symbol">"${symbol}"</p></div><p class="current-price">Price: ${current_price}</p></div>`)
      });    
  })
  .catch(err => console.log(err));
