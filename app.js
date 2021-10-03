@@ -17,6 +17,3 @@ getCoins()
      });    
  })
  .catch(err => console.log(err));
-
-
- // inner html funtions for every each item. 
