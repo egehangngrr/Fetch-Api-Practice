@@ -1,4 +1,8 @@
-//api request 
+
+const wrapper = document.querySelector('.wrapper');
+
+//api request
+
 const getCoins = async () => {
 
     const apiRequest = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd';
